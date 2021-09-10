@@ -11,7 +11,7 @@ const greeting = {
   title2: "Ray Huang",
   logo_name: "stingray",
   nickname: "ray / july",
-  full_name: "Ray Huang",
+  full_name: "Ray",
   subTitle:
     "Building is my friend! Explore tech & social entrepreneurship with me 😊.",
   resumeLink: "https://tinyurl.com/ray-cj-huang",
@@ -270,14 +270,14 @@ const degrees = {
   degrees: [
     {
       title: "University of California, Los Angeles",
-      subtitle: "Diploma in Information Technology",
+      subtitle: "B.S. Computer Science, In Progress",
       logo_path: "ucla.png",
       alt_name: "UCLA",
       duration: "2019 - Present",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "Completed courses in Data Structures, Computer Organization, Operating System, and Programming Languages.",
+        "Currently leading LA Blueprint (EVP), Bruin Entrepreneurs (Tech Director), and ACM at UCLA (Internal Affairs Director)",
+        // "⚡ Pursuing ",
       ],
       website_link: "https://www.cs.ucla.edu/",
     },
@@ -366,35 +366,35 @@ const degrees = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work & Internship",
+  title: "Work Experience",
+  // subtitle: "Work & Internship",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I love meeting new people from different backgrounds and seeing them come together to deliver results!",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
+          title: "Software Development Engineer Intern",
+          company: "Amazon",
+          company_url: "https://www.amazon.jobs/",
+          logo_path: "amazon.jpeg",
+          duration: "June 2021 - Sept 2021",
+          location: "Seattle, CA",
           description:
-            "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+            "With my 2nd summer in the same team (Book Ads Marketplace), I developed a tool from scratch for engineers & operators to investigate causes of low impression for sponsored advertisement. I accomplished this by first creating the user interface with JS/HTML/CSS to send requests, and receive results with AWS Java SDK in JSP and then processing each job request with Lambda, Step Function & EMR, and output the results to S3.",
           color: "#0071C5",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
+          title: "Future Engineer Intern (SDE Intern)",
+          company: "Amazon",
+          company_url: "https://www.amazon.jobs/",
+          logo_path: "amazon.jpeg",
+          duration: "June 2020 - Sept 2020",
+          location: "Seattle, CA (Remote)",
           description:
-            "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+            "Under Amazon's Book Ads team, I created an auto validation pipeline using AWS (Glue, CloudWatch, S3) for Kindle Unlimited to maintain data quality before attributing ads to users.",
           color: "#ee3c26",
         },
       ],
@@ -475,8 +475,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+  description: "Still in progress! Check out my GitHub for more information.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -484,304 +483,304 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile.jpeg",
+    profile_image_path: "ray.jpeg",
     description:
-      "Feel free to contact me via any social media! I'm the most responsive via Messenger 😊.",
+      "Feel free to contact me any time! I'm the most responsive via Facebook Messenger 😊.",
   },
 };
 
 const projects = {
   data: [
-    {
-      id: "0",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
-      description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
-      description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
-      description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
-      description: "Simple NodeJS Express CRUD Operations API starter.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description: "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
-      description: "A Simple Blog Web Application made using Flask Framework",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description: "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description:
-        "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-      ],
-    },
+    // {
+    //   id: "0",
+    //   name: "AutomateInstaPyBot",
+    //   url: "https://github.com/harikanani/AutomateInstaPyBot",
+    //   description:
+    //     "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "1",
+    //   name: "react-twitter-clone",
+    //   url: "https://github.com/harikanani/react-twitter-clone",
+    //   description:
+    //     "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "React",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "Firebase",
+    //       iconifyClass: "logos-firebase",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "2",
+    //   name: "node-blockchain",
+    //   url: "https://github.com/harikanani/node-blockchain",
+    //   description:
+    //     "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+    //   languages: [
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "TypeScript",
+    //       iconifyClass: "logos-typescript",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "3",
+    //   name: "top-crypto-gainers",
+    //   url: "https://github.com/harikanani/top-crypto-gainers",
+    //   description:
+    //     "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "4",
+    //   name: "personal-portfolio",
+    //   url: "https://github.com/harikanani/personal-portfolio",
+    //   description:
+    //     "A simple command line interface based quiz app to know more about me :).",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "3",
+    //   name: "node_express_crud_api_starter",
+    //   url: "https://github.com/harikanani/node_express_crud_api_starter",
+    //   description: "Simple NodeJS Express CRUD Operations API starter.",
+    //   languages: [
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "4",
+    //   name: "node-web-scrapper",
+    //   url: "https://github.com/harikanani/node-web-scrapper",
+    //   description:
+    //     "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "NodeJs",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "5",
+    //   name: "harikanani.github.io",
+    //   url: "https://github.com/harikanani/harikanani.github.io",
+    //   description:
+    //     "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "SCSS",
+    //       iconifyClass: "vscode-icons:file-type-scss2",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "6",
+    //   name: "Automate Attendace",
+    //   url: "https://github.com/harikanani/Node_Python",
+    //   description: "Automation of Online Attendance using node js and python",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "7",
+    //   name: "Automate Discord Bot",
+    //   url: "https://github.com/harikanani/AutomateDiscordBot",
+    //   description:
+    //     "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Python Selenium",
+    //       iconifyClass: "logos-selenium",
+    //     },
+    //     {
+    //       name: "Chromium Browser",
+    //       iconifyClass: "openmoji-chromium",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "8",
+    //   name: "Flask Blog",
+    //   url: "https://github.com/harikanani/flask_blog",
+    //   description: "A Simple Blog Web Application made using Flask Framework",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "9",
+    //   name: "Netflix top series",
+    //   url: "https://github.com/harikanani/netflix-top-series",
+    //   description: "List of Top Netflix Series which is deployed to vercel.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "COVID-19 Tracker",
+    //   url: "https://github.com/harikanani/Covid19TrackerReact",
+    //   description:
+    //     "Simple Covid-19 Tracker made using React and deployed to Vercel.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "11",
+    //   name: "Food Order Static Website",
+    //   url: "https://github.com/harikanani/food-order-website",
+    //   description:
+    //     "A simple static website related to food restaurants service. this is reasponsive as well.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "PHP",
+    //       iconifyClass: "logos-php",
+    //     },
+    //   ],
+    // },
   ],
 };
 

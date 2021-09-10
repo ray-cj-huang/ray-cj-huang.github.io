@@ -7,30 +7,33 @@
 
 .greet-main {
   width: 90%;
-  max-width: 1370px;
   padding: 10px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: block;
 }
 
 .greeting-main {
   display: flex;
-  /* text-align: center; */
+  height: calc(100vh - 135px);
 }
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+}
+
+.greeting-text-div {
+  vertical-align: center;
+  align-items: center;
+  margin: auto;
 }
 
 .greeting-text {
-  margin-top: 110px;
+  margin: 0;
   font-size: 70px;
   line-height: 5px;
   font-family: "Google Sans Bold";

@@ -16,12 +16,14 @@
 }
 
 .experience-heading-img-div {
+  max-width: 40%;
   align-items: center;
   justify-content: center;
 }
 
 .experience-heading-text-div {
   text-align: center;
+  padding: 0 5%;
 }
 
 .experience-heading-img-div > * {
