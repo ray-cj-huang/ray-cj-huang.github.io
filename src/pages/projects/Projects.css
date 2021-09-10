@@ -9,7 +9,7 @@
 }
 
 .projects-heading-div {
-  min-height: calc(100vh - 135px);
+  height: calc(100vh - 135px);
   display: flex;
 }
 

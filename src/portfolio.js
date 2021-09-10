@@ -366,8 +366,8 @@ const degrees = {
 
 // Experience Page
 const experience = {
-  title: "Work Experience",
-  // subtitle: "Work & Internship",
+  title: "Experience",
+  subtitle: "Work & Internship",
   description:
     "I love meeting new people from different backgrounds and seeing them come together to deliver results!",
   header_image_path: "experience.svg",
@@ -384,7 +384,7 @@ const experience = {
           location: "Seattle, CA",
           description:
             "With my 2nd summer in the same team (Book Ads Marketplace), I developed a tool from scratch for engineers & operators to investigate causes of low impression for sponsored advertisement. I accomplished this by first creating the user interface with JS/HTML/CSS to send requests, and receive results with AWS Java SDK in JSP and then processing each job request with Lambda, Step Function & EMR, and output the results to S3.",
-          color: "#0071C5",
+          color: "rgb(242,159,77)",
         },
         {
           title: "Future Engineer Intern (SDE Intern)",
@@ -399,83 +399,51 @@ const experience = {
         },
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Cross Winter of Code Mentor",
-    //       company: "CWOC",
-    //       company_url: "https://crosswoc.ieeedtu.in/",
-    //       logo_path: "cwoc.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-    //       color: "#4285F4",
-    //     },
-    //     {
-    //       title: "Campus Hustler",
-    //       company: "Skillenza",
-    //       company_url: "https://skillenza.com/",
-    //       logo_path: "skillenza.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work from Home",
-    //       description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-    //       color: "#196acf",
-    //     },
-    //     {
-    //       title: "GitHub Student Developer",
-    //       company: "GitHub",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github.png",
-    //       duration: "Nov 2019 - Present",
-    //       location: "Work from Home",
-    //       description:
-    //       "Contribute to Open Source Community and Open Source Project.",
-    //       color: "#040f26",
-    //     },
-    //     {
-    //       title: "Google Local Guide",
-    //       company: "Google Map",
-    //       company_url: "https://maps.google.com/localguides/",
-    //       logo_path: "localguide.png",
-    //       duration: "Sep 2018 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "GDG Student Volunteer",
-    //       company: "Google Developer Groups",
-    //       company_url: "https://gdg.community.dev/",
-    //       logo_path: "gdg.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Google Developer Group Surat Student Volunteer and Member.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "E. F. I. Student Volunteer",
-    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-    //       company_url: "https://indiaenvironment.org/",
-    //       logo_path: "efi.png",
-    //       duration: "Apr 2017 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-    //       color: "#5a900f",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Student Organizations",
+      experiences: [
+        {
+          title: "Internal Affairs Director",
+          company: "ACM at UCLA",
+          company_url: "https://lablueprint.org/",
+          logo_path: "acm_logo.png",
+          duration: "March 2021 - Present",
+          location: "Los Angeles, CA",
+          description:
+            "I bring unity to more than 150 students in ACM by hosting socials and events online & in-person throughout the year!",
+          color: "rgb(54, 106, 246)",
+        },
+        {
+          title: "Tech Director",
+          company: "Bruin Entrepreneurs",
+          company_url: "https://lablueprint.org/",
+          logo_path: "be_logo.png",
+          duration: "June 2021 - Present",
+          location: "Los Angeles, CA",
+          description:
+            "I am planning a yearlong technical project to expand BE’s entrepreneurial presence on-campus while maintaining the current website for the org.",
+          color: "rgb(43, 71, 115)",
+        },
+        {
+          title: "External Vice President",
+          company: "LA Blueprint",
+          company_url: "https://lablueprint.org/",
+          logo_path: "bp_logo.png",
+          duration: "June 2021 - Present",
+          location: "Los Angeles, CA",
+          description:
+            "While recruiting nonprofit partners to build mobile and web applications free of charge, I work with VP of Tech to maintain and rebuild our website in preparation for non-profit and student recruitments. I also plan events such as workshops, hackathons, and fireside talks with other nonprofits and student organizations",
+          color: "rgb(58, 121, 222)",
+        },
+      ],
+    },
   ],
 };
 
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: "Still in progress! Check out my GitHub for more information.",
+  description: "Still in progress. Check out my GitHub in the meantime!",
   avatar_image_path: "projects_image.svg",
 };
 
