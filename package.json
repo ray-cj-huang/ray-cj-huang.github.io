@@ -2,7 +2,7 @@
   "private": true,
   "name": "ray-cj-huang",
   "version": "1.0.0",
-  "homepage": "http://ray-cj-huang.github.io/",
+  "homepage": "http://rayhuang.us/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
