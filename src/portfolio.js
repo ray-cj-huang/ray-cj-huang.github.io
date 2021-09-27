@@ -14,7 +14,8 @@ const greeting = {
   full_name: "Ray",
   subTitle:
     "Building is my friend! Explore tech & social entrepreneurship with me 😊.",
-  resumeLink: "https://tinyurl.com/ray-cj-huang",
+  resumeLink:
+    "https://drive.google.com/file/d/1GT9pt8S3h6F4AT_cFgLbYqdHCdPxV_S8/view?usp=sharing",
   mail: "mailto:rayhuang.cj@gmail.com",
 };
 
